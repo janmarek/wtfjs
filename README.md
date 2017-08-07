@@ -18,7 +18,6 @@ Original idea of WTFJS belongs to [Brian Leroux](https://twitter.com/brianleroux
 - [✍🏻 Notation](#-notation)
 - [👀 Examples](#-examples)
   - [`[]` is equal `![]`](#-is-equal-)
-  - [true is false](#true-is-false)
   - [fooNaN](#foonan)
   - [`NaN` is not a `NaN`](#nan-is-not-a-nan)
   - [It's a fail](#its-a-fail)
@@ -108,13 +107,6 @@ Array is equal not array:
 
 * [**12.5.9** Logical NOT Operator (`!`)](https://www.ecma-international.org/ecma-262/#sec-logical-not-operator)
 * [**7.2.13** Abstract Equality Comparison](https://www.ecma-international.org/ecma-262/#sec-abstract-equality-comparison)
-
-## true is false
-
-```js
-!!'false' ==  !!'true'  // -> true
-!!'false' === !!'true' // -> true
-```
 
 ### 💡 Explanation:
 
